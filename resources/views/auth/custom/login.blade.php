@@ -13,7 +13,7 @@
               <div class="card-header border-0">
                 <div class="card-title text-center">
                   <div class="p-1">
-                    <img src="{{ asset('images/logo-bappeko.png') }}" alt="branding logo">
+                    <img src="{{ asset('stack30-temp/images/logo/stack-logo-dark.png') }}" alt="branding logo">
                   </div>
                 </div>
               </div>

@@ -2,8 +2,8 @@
 <footer class="footer footer-static footer-light navbar-shadow">
   <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
     <span class="float-md-left d-block d-md-inline-block">
-      Copyright &copy; 2020 <a class="text-bold-800 grey darken-2" href="https://bappeko.surabaya.go.id/"
-      target="_blank">Bappeko </a>, All rights reserved. </span>
-    <span class="float-md-right d-block d-md-inline-block d-none d-lg-block">Dibuat dengan <i class="ft-heart pink"></i> di Surabaya</span>
+      Copyright &copy; 2020 <a class="text-bold-800 grey darken-2" href="{{ config('global_settings.link_web') }}"
+      target="_blank">{{ config('global_settings.copyright') }} </a>, All rights reserved. </span>
+    <span class="float-md-right d-block d-md-inline-block d-none d-lg-block">Dibuat dengan <i class="ft-heart pink"></i> di {{ config('global_settings.city') }}</span>
   </p>
 </footer>
